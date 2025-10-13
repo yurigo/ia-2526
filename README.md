@@ -344,4 +344,4 @@ Enlace: excepciones básicas → [sessions/session 01/hello-world/exceptions.py]
 
 ---
 
-Si detectas lagunas o quieres ampliar algún apartado (p. ej., ejemplos de código, ejercicios o rúbricas), abre un issue o propone cambios.
+Si detectas lagunas o quieres ampliar algún apartado (p. ej., ejemplos de código, ejercicios o rúbricas), abre un issue o propon cambios.
