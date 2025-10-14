@@ -10,7 +10,7 @@ initialState = [
 
 
 
-def bfs(initialState, start, end):
+def dfs(initialState, start, end):
 
     directions = [
         (1,0),
@@ -41,7 +41,7 @@ def bfs(initialState, start, end):
 
         
 
-print(bfs(initialState, (0,0) , (4,4)))
+print(dfs(initialState, (0,0) , (4,4)))
 
 
 
