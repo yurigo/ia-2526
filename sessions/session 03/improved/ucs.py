@@ -19,6 +19,9 @@ def generate_labyrinth_20x20():
     # Rellenar otros sitios con pesos altos o bajos
     for i in range(size):
         for j in range(size):
+            # if i == j:
+            #     labyrinth[i][j] = 1
+            #     continue
             if labyrinth[i][j] != "1" and random.random() < 0.7:
                 labyrinth[i][j] = str(random.choice([1,5,9]))
             elif labyrinth[i][j] != "1":
