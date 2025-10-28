@@ -1,7 +1,3 @@
-# hello minimax
-Player = str  # "X" o "O"
-Board = List[str]  # 9 celdas: "X","O"," "
-
 WINS = [(0,1,2),(3,4,5),(6,7,8),
         (0,3,6),(1,4,7),(2,5,8),
         (0,4,8),(2,4,6)]
@@ -48,7 +44,8 @@ def minimax(b, me, turn):
         return best_val, best_move
 
 # Demo
-board = [" "]*9
+board = ["X", "O" , "X", "O", "O", " ", " ", " ", " "] 
+
 me = "X"
 val, move = minimax(board, me, "X")
-print("Mejor apertura para X:", move)
+print("Mejor movimiento para X:", move)
