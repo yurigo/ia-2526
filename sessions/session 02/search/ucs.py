@@ -1,4 +1,4 @@
-# Depth-first search (DFS)
+# Uniform cost Search (UCS)
 import heapq
 
 initialState = [
