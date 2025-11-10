@@ -19,7 +19,7 @@ REPRESENTACIÓN:
 PISTAS:
 - Pikachu está en Pokeball o Ultraball
 - Squirtle NO está en Masterball
-- Bulbasaur está en Greatball
+- Bulbasaur está en Ultraball
 """
 
 from logic import *
@@ -78,8 +78,8 @@ knowledge = ("AND", knowledge, pista1)
 pista2 = ("NOT", "SquirtleMasterball")
 knowledge = ("AND", knowledge, pista2)
 
-# 6) PISTA 3: Bulbasaur está en Greatball
-pista3 = "BulbasaurGreatball"
+# 6) PISTA 3: Bulbasaur está en Ultraball
+pista3 = "BulbasaurUltraball"
 knowledge = ("AND", knowledge, pista3)
 
 print(show(knowledge))
@@ -90,7 +90,7 @@ print("="*60)
 print("\nPISTAS:")
 print("  1. Pikachu está en Pokeball o Ultraball")
 print("  2. Squirtle NO está en Masterball")
-print("  3. Bulbasaur está en Greatball")
+print("  3. Bulbasaur está en Ultraball")
 print("\nANALIZANDO...")
 print("-"*60)
 
@@ -111,23 +111,4 @@ print("="*60)
 for poke in pokemon:
     if poke in asignaciones:
         print(f"  [{asignaciones[poke]:10}] : {poke}")
-print("="*60)
-
-print("\nEXPLICACION:")
-print("-"*60)
-print("De la pista 3 sabemos:")
-print("  - Bulbasaur está en Greatball")
-print("\nDe la pista 1:")
-print("  - Pikachu está en Pokeball o Ultraball")
-print("\nDe la pista 2:")
-print("  - Squirtle NO está en Masterball")
-print("  - Por lo tanto Squirtle está en: Pokeball, Ultraball (Greatball ocupada)")
-print("\nPor eliminación:")
-print("  - Si Pikachu está en Pokeball:")
-print("    * Squirtle debe estar en Ultraball")
-print("    * Charmander debe estar en Masterball")
-print("  - Si Pikachu está en Ultraball:")
-print("    * Squirtle debe estar en Pokeball")
-print("    * Charmander debe estar en Masterball")
-print("\nEl motor lógico determina cuál es la asignación correcta.")
 print("="*60)
