@@ -26,6 +26,7 @@ Repositorio del Máster de Inteligencia Artificial y Big Data (curso 2025–2026
     - Calculadora IMC: [sessions/session 01/hello-world/imcCalculator.py](sessions/session%2001/hello-world/imcCalculator.py)
 
 - Sesión 02 — Programación de inteligencia artificial
+
   - README de la sesión: [sessions/session 02/README.md](sessions/session%2002/README.md)
   - Código de apoyo
     - Estructuras de datos: [estructures/](sessions/session%2002/estructures/)
@@ -46,3 +47,39 @@ Repositorio del Máster de Inteligencia Artificial y Big Data (curso 2025–2026
     - Sistemas de reglas: [rules/](sessions/session%2002/rules/)
       - Motor y reglas: [rules.py](sessions/session%2002/rules/rules.py)
       - Reglas (variación): [rules2.py](sessions/session%2002/rules/rules2.py)
+
+- Sesión 03 — Algoritmos de búsqueda avanzados
+
+  - Código de apoyo
+    - Búsqueda (implementaciones básicas): [search/](sessions/session%2003/search/)
+      - BFS: [bfs.py](sessions/session%2003/search/bfs.py)
+      - BFS con costos: [bfs-with-cost.py](sessions/session%2003/search/bfs-with-cost.py)
+      - DFS: [dfs.py](sessions/session%2003/search/dfs.py)
+      - DFS con costos: [dfs-with-costs.py](sessions/session%2003/search/dfs-with-costs.py)
+      - UCS: [ucs.py](sessions/session%2003/search/ucs.py)
+      - UCS con costos: [ucs-with-costs.py](sessions/session%2003/search/ucs-with-costs.py)
+      - A\*: [a-star.py](sessions/session%2003/search/a-star.py)
+      - Comparación: [comparison.py](sessions/session%2003/search/comparison.py)
+    - Búsqueda (implementaciones mejoradas): [improved/](sessions/session%2003/improved/)
+      - BFS: [bfs.py](sessions/session%2003/improved/bfs.py)
+      - DFS: [dfs.py](sessions/session%2003/improved/dfs.py)
+      - UCS: [ucs.py](sessions/session%2003/improved/ucs.py)
+      - A\*: [astar.py](sessions/session%2003/improved/astar.py)
+
+- Sesión 04 — Algoritmos de juegos
+
+  - Código de apoyo
+    - Minimax (pseudocódigo): [minimax-pseudo.py](sessions/session%2004/minimax-pseudo.py)
+    - Minimax (implementación): [minimax.py](sessions/session%2004/minimax.py)
+
+- Sesión 05 — Lógica proposicional y resolución
+  - README de la sesión: [sessions/session 05/README.md](sessions/session%2005/README.md)
+  - Código de apoyo
+    - Lógica básica: [basic.py](sessions/session%2005/basic.py)
+    - Lógica (inferencia): [logic.py](sessions/session%2005/logic.py)
+    - Uso de itertools: [with_inertools.py](sessions/session%2005/with_inertools.py)
+  - Ejemplos/ejercicios
+    - Cluedo: [cluedo.py](sessions/session%2005/cluedo.py)
+    - Cluedo con 6 personas: [cluedo_with_six_people.py](sessions/session%2005/cluedo_with_six_people.py)
+    - Mastermind: [mastermind.py](sessions/session%2005/mastermind.py)
+    - Puzzle: [puzzle.py](sessions/session%2005/puzzle.py)
