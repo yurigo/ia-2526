@@ -50,6 +50,7 @@ Repositorio del Máster de Inteligencia Artificial y Big Data (curso 2025–2026
 
 - Sesión 03 — Algoritmos de búsqueda avanzados
 
+  - README de la sesión: [sessions/session 03/README.md](sessions/session%2003/README.md)
   - Código de apoyo
     - Búsqueda (implementaciones básicas): [search/](sessions/session%2003/search/)
       - BFS: [bfs.py](sessions/session%2003/search/bfs.py)
@@ -68,6 +69,7 @@ Repositorio del Máster de Inteligencia Artificial y Big Data (curso 2025–2026
 
 - Sesión 04 — Algoritmos de juegos
 
+  - README de la sesión: [sessions/session 04/README.md](sessions/session%2004/README.md)
   - Código de apoyo
     - Minimax (pseudocódigo): [minimax-pseudo.py](sessions/session%2004/minimax-pseudo.py)
     - Minimax (implementación): [minimax.py](sessions/session%2004/minimax.py)
@@ -83,3 +85,11 @@ Repositorio del Máster de Inteligencia Artificial y Big Data (curso 2025–2026
     - Cluedo con 6 personas: [cluedo_with_six_people.py](sessions/session%2005/cluedo_with_six_people.py)
     - Mastermind: [mastermind.py](sessions/session%2005/mastermind.py)
     - Puzzle: [puzzle.py](sessions/session%2005/puzzle.py)
+
+- Sesión 06 — Lógica proposicional con CNF
+
+  - README de la sesión: [sessions/session 06/README.md](sessions/session%2006/README.md)
+  - Código de apoyo
+    - Biblioteca de lógica CNF: [logicCNF.py](sessions/session%2006/logicCNF.py)
+  - Ejemplos/ejercicios
+    - Puzzle Pokemon-Pokeballs: [puzzleCNF.py](sessions/session%2006/puzzleCNF.py)
